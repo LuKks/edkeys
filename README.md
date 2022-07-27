@@ -126,8 +126,8 @@ hyperkeys.remove('vm1')
 ```
 
 ## List
-`keyPairs` are the keys where you have the `seedKey` or the combination of `publicKey` and `secretKey`.\
-`knownKeys` are the keys where you don't have either the `secretKey` and `seedKey`.\
+`keyPairs` is when you have the `seedKey` or combination of `publicKey` and `secretKey`.\
+`knownKeys` are the keys where you don't have either the `secretKey` and `seedKey`.
 
 ```javascript
 const { keyPairs, knownKeys } = hyperkeys.list()
