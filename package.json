@@ -1,5 +1,5 @@
 {
-  "name": "hyperkeys",
+  "name": "edkeys",
   "version": "0.1.1",
   "description": "Node.js library for ed25519 keys management",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LuKks/hyperkeys.git"
+    "url": "https://github.com/LuKks/edkeys.git"
   },
   "author": "Lucas Barrena (@LuKks)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LuKks/hyperkeys/issues"
+    "url": "https://github.com/LuKks/edkeys/issues"
   },
-  "homepage": "https://github.com/LuKks/hyperkeys",
+  "homepage": "https://github.com/LuKks/edkeys",
   "dependencies": {
     "b4a": "^1.5.3",
     "sodium-universal": "^3.1.0"

@@ -1,18 +1,18 @@
-# hyperkeys
+# edkeys
 
 Node.js library for ed25519 keys management.
 
-![](https://img.shields.io/npm/v/hyperkeys.svg) ![](https://img.shields.io/npm/dt/hyperkeys.svg) ![](https://img.shields.io/badge/tested_with-tape-e683ff.svg) ![](https://img.shields.io/github/license/LuKks/hyperkeys.svg)
+![](https://img.shields.io/npm/v/edkeys.svg) ![](https://img.shields.io/npm/dt/edkeys.svg) ![](https://img.shields.io/badge/tested_with-tape-e683ff.svg) ![](https://img.shields.io/github/license/LuKks/edkeys.svg)
 
 ```
-npm i hyperkeys
+npm i edkeys
 ```
 
 By default it saves the files in `~/.hyperkeys`.
 
 ## Usage
 ```javascript
-const Hyperkeys = require('hyperkeys')
+const Hyperkeys = require('edkeys')
 
 const hyperkeys = new Hyperkeys()
 
